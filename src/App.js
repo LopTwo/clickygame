@@ -5,7 +5,6 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Image from "./components/Image";
 import Img from "./components/Img.json"
-//image imports (since I'm not using a server)
 import apples from "./images/apples.jpg"
 import blackberry from "./images/blackberry.jpg"
 import blueberries from "./images/blueberries.jpg"
@@ -29,7 +28,6 @@ class App extends Component {
     message: 'Click an image to begin'
   };
 
-  // credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
   shuffleArray = (array) => {
     let imgArray = Img;
     for (let i = imgArray.length - 1; i > 0; i--) {
